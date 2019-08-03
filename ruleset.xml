@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="One-DB">
+    <description>Coding standard based on PSR-2 but relaxed in some areas</description>
+
+    <rule ref="PSR2" />
+
+    <rule ref="Squiz.Classes.ValidClassName">
+        <exclude-pattern>*/src/Zend*</exclude-pattern>
+    </rule>
+</ruleset>
