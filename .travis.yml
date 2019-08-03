@@ -31,4 +31,4 @@ before_script:
   - composer install --prefer-dist --no-interaction
 
 script:
-  - sh -c "if [ '$PHPCS' = '1' ]; then vendor/bin/phpcs -p --extensions=php --standard=PSR2 ./src; fi"
+  - sh -c "if [ '$PHPCS' = '1' ]; then vendor/bin/phpcs -p --extensions=php --standard=ruleset.xml ./src; fi"
