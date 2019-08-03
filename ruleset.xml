@@ -7,4 +7,8 @@
     <rule ref="Squiz.Classes.ValidClassName">
         <exclude-pattern>*/src/Zend*</exclude-pattern>
     </rule>
+
+    <rule ref="PSR1.Classes.ClassDeclaration">
+        <exclude-pattern>*/src/Zend*</exclude-pattern>
+    </rule>
 </ruleset>
